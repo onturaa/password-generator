@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p {
+    margin: 0;
+}
+
+p {
+    color: lightgray;
+}
+
+input {
+    border: none;
+    width: 200px;
+    height: 22px;
+    border-radius: 4px;
+}
+
+button {
+    background: #10B981;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 42px;
+    border-radius: 4px;
+}
+
+#green-h1 {
+    color: #4ADF86;
+}
+
+#passwords > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273549;
+    color: #55F991;
+    width: 211px;
+    height: 39px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#passwords {
+    display: flex;
+    gap: 20px;
+}
+
+#passwords > p {
+    overflow: hidden;
+}
